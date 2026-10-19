@@ -1,0 +1,26 @@
+[FIPS-197] AES-128 OK  ct=69c4e0d86a7b0430d8cdb78070b4c55a
+
+[P1] Efeito avalanche (AES completo, bloco de 128 bits)
+[P1]  1 bit no TEXTO -> 64.0/128 (50.0%)
+[P1]  1 bit na CHAVE -> 63.8/128 (49.8%)
+[P1]  (esperado ~64/128 = 50%)
+
+[P2] Avalanche vs numero de rodadas
+[P2]   1 rodada(s):   4.1/128 ( 3.2%) #
+[P2]   2 rodada(s):  16.1/128 (12.5%) #####
+[P2]   3 rodada(s):  64.2/128 (50.2%) ####################
+[P2]   4 rodada(s):  63.8/128 (49.9%) ###################
+[P2]   5 rodada(s):  64.0/128 (50.0%) ###################
+[P2]   6 rodada(s):  63.9/128 (49.9%) ###################
+[P2]   7 rodada(s):  63.8/128 (49.8%) ###################
+[P2]   8 rodada(s):  64.0/128 (50.0%) ###################
+[P2]   9 rodada(s):  63.8/128 (49.9%) ###################
+[P2]  10 rodada(s):  64.1/128 (50.0%) ####################
+
+[P3] Difusao SEM MixColumns
+[P3]   2 rodada(s) sem MixColumns:   4.1/128 ( 3.2%)
+[P3]   4 rodada(s) sem MixColumns:   4.0/128 ( 3.1%)
+[P3]   6 rodada(s) sem MixColumns:   4.1/128 ( 3.2%)
+[P3]  10 rodada(s) sem MixColumns:   4.0/128 ( 3.1%)
+
+=== EXPERIMENTOS CONCLUÍDOS ===
