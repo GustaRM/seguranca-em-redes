@@ -2,9 +2,6 @@
 # =====================================================================
 # Atividade 06 - Modos de operação com OpenSSL (imagem do Tux)
 #
-# Roda TODA a prática de uma vez e imprime cada comando antes de executá-lo
-# (assim o terminal já fica pronto para tirar o print).
-#
 # Onde executar: Linux, WSL ou "Git Bash" no Windows (precisa de openssl,
 # curl e Python 3 com Pillow:  pip install pillow).
 #
